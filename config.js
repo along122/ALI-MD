@@ -5,13 +5,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~XdUhUSiI#R4-tft08cQUfZRAFiQxJwAGA6FULicG3Y1qfefYUkKQ",  
 // add your Session Id 
-AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
+AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW ALI-MD 👻*",
 // set the auto reply massage on status reply  
@@ -23,7 +23,7 @@ ADMIN_EVENTS: process.env.ADMIN_ACTION || "false",
 // make true to know who dismiss or promoted a member in group
 ANTI_LINK: process.env.ANTI_LINK || "false",
 // make anti link true,false for groups
-ANTI_CALL: process.env.ANTI_CALL || "true",
+ANTI_CALL: process.env.ANTI_CALL || "false",
 REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
@@ -32,9 +32,9 @@ ALIVE_IMG: process.env.ALIVE_IMG || "https://qu.ax/zrqFX.jpg",
 // add custom menu image url
 PREFIX: process.env.PREFIX || ".", 
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "ALI-MD",
+BOT_NAME: process.env.BOT_NAME || "ALONG",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "ALI-MD",    
+STICKER_NAME: process.env.STICKER_NAME || "ALONG",    
 VPS: process.env.VPS || "",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
@@ -42,9 +42,9 @@ OWNER_REACT: process.env.OWNER_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923003588997",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "917005663560",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "ALI INXIDE",
+OWNER_NAME: process.env.OWNER_NAME || "ALONG",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "© ᴘσωєʀє∂ ву αℓι м∂⎯꯭̽💀",
 // add alive msg here 
@@ -72,7 +72,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923003588997",
+DEV: process.env.DEV || "917005663560",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
